@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Arcane font";
+    src: url(fuentes/Arcane\ Nine.otf);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    font-family: "Arcane font", sans-serif;
+    background-color: #10181E;
+}
+
+.home{
+    width: 70px; 
+    margin-left: 1750px;
+    top: 10px;
+    position: absolute; 
+}
+
+.flecha{
+    width: 100px; 
+    margin-left: 20px;
+    top: 10px;
+    position: absolute; 
+}
+
+h1{
+    display: flex; /* Usa Flexbox para centrar elementos */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    font-size: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #AB7C3F;
+    background: linear-gradient(90deg, #e2c08d, #d4af37, #000000); /* Mejor degradado dorado */
+    background-clip: 0  ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    
+}
+
+table {
+    font-family: "Kanit", sans-serif;
+    color: white;
+    width: 90%;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: left;
+}
+th, td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #333;
+    color: blanchedalmond;
+    
+}
+
+img {
+    max-width: 250px;
+    max-height: 250px;
+}

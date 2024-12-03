@@ -1,0 +1,141 @@
+/*Añadir fuente*/
+@font-face {
+    font-family: "Arcane font";
+    src: url(fuentes/Arcane\ Nine.otf);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    font-family: "Arcane font", sans-serif;
+    background-color: #10181E;
+    
+}
+
+.home{
+    width: 75px; 
+    margin-left: 20px;
+    top: 10px;
+    position: absolute; 
+
+}
+
+
+h1{
+    display: flex; /* Usa Flexbox para centrar elementos */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    font-size: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #AB7C3F;
+    background: linear-gradient(90deg, #e2c08d, #d4af37, #000000); /* Mejor degradado dorado */
+    background-clip: 0  ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.letrascontainer{
+  display: absolute; /* Usa Flexbox para centrar elementos */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  margin-top: 300px;
+  margin-left: 625px;
+}
+
+  
+.carousel1 {
+    margin-left: 650px;
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden; /* Oculta cualquier contenido que se salga de los límites del elemento. */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Crea un efecto de elevación */
+    position: absolute; 
+    
+    
+}
+
+.carousel2 {
+    margin-right: 500px;
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: absolute; 
+    
+    
+}
+
+.carousel3 {
+    position: absolute; 
+    margin-left: 1307px;
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel4 {
+  position: absolute;
+  margin-top: 500px; 
+  margin-left: 650px;
+  width: 100%;
+  max-width: 600px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel5 {
+  position: absolute; 
+  margin-top: 500px;
+  margin-right: 500px;
+  width: 100%;
+  max-width: 600px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel6 {
+  position: absolute; 
+  margin-top: 500px;
+  margin-left: 1307px;
+  width: 100%;
+  max-width: 600px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+  .carousel-inner {
+    display: flex;
+    width: 100%;
+    animation: slide 12s infinite;
+  }
+  
+  .carousel-item {
+    width: 100%;
+    flex: 1 0 100%;
+    
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+  }
+  
+  @keyframes slide { /* define una animación "slide" en este caso */
+    0% { transform: translateX(0%); }
+    33.33% { transform: translateX(-100%); }
+    66.66% { transform: translateX(-200%); }
+    100% { transform: translateX(0%); }
+  }

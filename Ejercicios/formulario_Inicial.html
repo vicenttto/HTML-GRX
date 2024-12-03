@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Información personal</legend>
+            <label for="nombre"> Nombre: </label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" name="apellidos" id="apellidos">
+            <br>
+            <br>
+            <label for="telefono">Teléfono:</label>
+            <input type="text" name="telefono" id="telefono">
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" name="ciudad" id="ciudad">
+        </fieldset>
+        <fieldset>
+            <legend>Edad</legend>
+            <input type="radio" name="edad1" id="edad1" value="20-39">
+            <label for="edad1">20-39</label>
+            <input type="radio" name="edad2" id="edad2" value="40-59">
+            <label for="edad2">40-59</label>
+            <input type="radio" name="edad3" id="edad3">
+            <label for="edad3">60-79</label> 
+            <br>
+            <br>
+            <label for="lenguaje">Lenguaje:</label>
+            <select name="lenguaje" id="lenguaje">
+                <option value="">Selecciona a un lenguaje</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="PHP">PHP</option>
+                <option value="Java">Java</option>
+                <option value="Golang">Golang</option>
+                <option value="Python">Python</option>
+                <option value="C#">C#</option>
+                <option value="C++">C++</option>
+                <option value="Erlang">Erlang</option>
+            </select>
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">       
+    </form>
+</body>
+</html>

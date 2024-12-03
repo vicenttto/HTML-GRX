@@ -1,0 +1,159 @@
+/*Añadir fuente*/
+@font-face {
+    font-family: "Arcane font";
+    src: url(fuentes/Arcane\ Nine.otf);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    font-family: "Arcane font", sans-serif;
+    background-color: #10181E;
+}
+
+.home{
+    width: 100px; 
+    margin-left: 20px;
+    top: 10px;
+    position: absolute; 
+
+}
+
+
+h1{
+    display: flex; /* Usa Flexbox para centrar elementos */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    font-size: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #AB7C3F;
+    background: linear-gradient(90deg, #e2c08d, #d4af37, #000000); /* Mejor degradado dorado */
+    background-clip: 0  ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    
+}
+
+h2{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: justify;
+        
+    color: white;
+}
+
+.datosenviofield{
+    display: flex;
+    justify-content: center;
+}
+
+.iniciosesion{
+    font-family: "kanit", sans-serif;
+}
+
+.envio{
+    font-family: "kanit", sans-serif;
+}
+
+button{
+    font-family: "Arcane font", sans-serif;
+    font-size: medium;
+    margin-top: 110px;
+}
+
+.figurajinx{
+    display: absolute;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    width: 500px;
+}
+
+.peluchevi{
+    display: absolute;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    width: 500px;
+}
+
+.sudaderaekko{
+    display: absolute;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    width: 400px;
+}
+
+.collarazul{
+    display: absolute;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    width: 400px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los fieldsets se acomoden si el espacio es reducido */
+    justify-content: space-between; /* Espaciado entre secciones */
+    gap: 10px; /* Separación entre los fieldsets */
+}
+
+fieldset {
+    border: 1px solid white;
+    padding: 15px;
+    width: 30%; /* Cada sección ocupa 30% del ancho disponible */
+    min-width: 280px; /* Asegura que los fieldsets no se hagan muy pequeños */
+    box-sizing: border-box;
+}
+
+.datosenviofield{
+    width: 400px;
+}
+
+legend {
+    font-weight: bold;
+    text-align: center;
+    padding: 0 5px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select, button {
+    width: 100%; /* Ajusta los inputs, selects y botones al 100% del contenedor */
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid white;
+    background-color: #333;
+    color: white;
+    box-sizing: border-box; /* Incluye padding y border dentro del ancho total */
+}
+
+input:focus, select:focus, button:focus {
+    outline: none;
+    border-color: #00bfff; /* Borde azul claro en focus */
+}
+
+button {
+    background-color: #555;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #777;
+}
