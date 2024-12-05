@@ -1,0 +1,19 @@
+article {
+    margin-bottom: 2rem;
+}
+
+article h2 {
+    margin-bottom: 0.5rem;
+    color: #0078d7;
+}
+
+article p {
+    margin: 0.5rem 0;
+}
+
+article img {
+    display: block;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    width: 120px;
+}
