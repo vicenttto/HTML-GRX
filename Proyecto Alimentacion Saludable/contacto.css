@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    color: #00bfff;
+    margin-top: 20px;
+}
+
+/* Form Styles */
+form {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border: 1px solid #00bfff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 191, 255, 0.5);
+}
+
+/* Fieldset Styles */
+fieldset {
+    border: 1px solid #00bfff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #1e1e1e;
+}
+
+legend {
+    padding: 5px 10px;
+    color: #00bfff;
+    font-weight: bold;
+    border: 1px solid #00bfff;
+    border-radius: 5px;
+    background-color: #121212;
+}
+
+/* Input and Label Styles */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #00bfff;
+    border-radius: 5px;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+input[type="color"] {
+    width: 100px;
+    height: 40px;
+    border: none;
+    margin: 10px 0;
+}
+
+/* Radio and Checkbox Styles */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* File Input */
+input[type="file"] {
+    border: none;
+    color: #00bfff;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+input[type="submit"],
+input[type="reset"] {
+    width: 48%;
+    padding: 10px;
+    margin: 10px 1%;
+    border: 1px solid #00bfff;
+    border-radius: 5px;
+    background-color: #121212;
+    color: #00bfff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #00bfff;
+    color: #121212;
+}
+
+footer {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    padding: 10px;
+    text-align: center;
+}
+
+header {
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #4fc3f7;
+    margin: 0;
+}
+
+/* Menú */
+.menu {
+    background-color: #1e1e1e;
+    padding: 10px 0;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    color: #4fc3f7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    color: #81d4fa;
+}
+
