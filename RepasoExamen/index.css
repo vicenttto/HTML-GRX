@@ -10,8 +10,6 @@ header h1{
 
 
 body{
-    margin: 0;
-    padding: 0;
     font-family: Arial, sans-serif;
 }
 
@@ -58,3 +56,33 @@ ul{
     list-style: none;
 }
 
+table {
+    text-align: justify;
+}
+
+tfoot{
+    text-align: center;
+}
+
+.numtlf{
+    text-align: center;
+    border: collapse;
+}
+
+.numtlf th{
+background-color: lightgrey;
+}
+
+.numtlf th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.dif th{
+    font-weight: bold;
+
+}
+
+.dif{
+    text-align: center;
+}

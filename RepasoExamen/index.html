@@ -28,6 +28,265 @@
             <p>prueba de barra lateral</p>
         </aside>
     </div>
+    <section>
+        <h1>tabla</h1>
+        <table border="1">
+            <thead>
+                <th>Material necesario</th>
+                <th>Duracion</th>
+                <th>Nivel dificultad</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pelotas</td>
+                    <td>20 minutos</td>
+                    <td>Facil</td>
+                </tr>
+                <tr>
+                    <td>Raquetas</td>
+                    <td>30 minutos</td>
+                    <td>Medio</td>
+                </tr>
+                <tr>
+                    <td>Guantes</td>
+                    <td>40 minutos</td>
+                    <td>Dificil</td>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <td colspan="3"> DAW.es</td>
+                    </tr>
+                </tfoot>
+            </tbody>
+        </table>
+<hr>
+        <table border="1" class="numtlf">
+            <thead>
+                <th colspan="3">Numeros de telefono</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nombre</td>
+                    <td>Apellido</td>
+                    <td>Telefono</td>
+                </tr>
+                <tr>
+                    <td>Pablo</td=>
+                    <td>Garcia</td>
+                    <td>123456789</td>
+                </tr>
+                <tr>
+                    <td>Pedro</td>
+                    <td>Sanchez</td>
+                    <td>234567890</td>
+                </tr>
+                <tr>
+                    <td>Antonio</td>
+                    <td>Fernandez</td>
+                    <td>345678901</td>
+                </tr>
+            </tbody>
+        </table>
+<hr>
+        <table class="dif" border="1">
+            <thead>
+                <th colspan="8">Diferencias entre el perro y el hombre</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="2" colspan="2">Diferencias</th>
+                    <th colspan="3">Perro</th>
+                    <th rowspan="2">Hombre</th>
+                </tr>
+                <tr>
+                    <th>Pequeño</th>
+                    <th colspan="2">Grande</th>
+                </tr>
+                <tr>
+                    <th colspan="2">Duracion del crecimiento</th>
+                    <td>10 meses</td>
+                    <td colspan="2">18 a 24 meses</td>
+                    <td>16 años</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Tiempo de gestacion</th>
+                    <td colspan="3">58 a 63 dias</td>
+                    <td>9 meses</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Duracion de la vida del pelo/cabello</th>
+                    <td colspan="3">1 año</td>
+                    <td>2 a 7 años</td>
+                </tr>
+                <tr>
+                    <th rowspan="3" colspan="2"><a href="">Alimentacion</a></th>
+                    <td rowspan="3" colspan="3">
+                        <ul>
+                        <li type="">Pienso seco</li>
+                        <li>Pienso Humedo</li>
+                        </ul>
+                    </td>
+                    <td>Lentejas</td>
+                </tr>
+                <tr>
+                    <td>Carne</td>
+                </tr>
+                <tr>
+                    <td>Pescado</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+
+
+
+
+    <h1>Formulario</h1>
+    <form action="">
+        <fieldset>
+            <legend>Datos personales</legend>
+
+            <div>
+                <label for="nomfor">Nombre:</label>
+                <input type="text" name="nombre" placeholder="Nombre" id="nomfor">
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" name="contraseña" placeholder="contraseña" id="contraseña">
+            </div>
+
+            <br><br>
+            
+            <div>
+                <label for="descripcion">Descripcion:</label>
+                <textarea name="descripcion" id="descripcion"></textarea>
+            </div>
+            
+            <br><br>
+            
+            <div>
+                <label for="email">email</label>
+                <input type="email" name="email" id="email">    
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Aficiones</legend>
+            <div>
+                <input type="radio" name="aficion" id="lol" value="lol">
+                <label for="lol">lol</label>
+                <input type="radio" name="aficion" id="wow" value="wow">
+                <label for="wow">wow</label>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Listas desplegables</legend>
+            <div>
+                <select name="pdf" id="pdf">
+                    <option selected> -- Elige -- </option>
+                    <option value="1"> Brunolol</option>
+                    <option value="2"> Kinglol</option>
+                </select>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Checkbox</legend>
+            <div>
+                <label for="terror"><input type="checkbox" name="genero_terror" id="terror" value="1">Terror</label>
+                <label for="comedia"><input type="checkbox" name="genero_comedia" id="comedia" value="2">comedia</label>
+                <label for="fantasia"><input type="checkbox" name="genero_fantasia" id="fantasisa" value="3" checked>Fantasía</label>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Tpos de color</legend>
+            <div>
+                <input type="color">
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Fecha</legend>
+            <div>
+                <input type="date" name="fecha">
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Fichero</legend>
+            <div>
+                <input type="file">
+            </div>
+        </fieldset>
+        
+        
+        
+        <br>
+        <input type="submit" name="Enviar" id="enviar" value="enviarlo">
+        <input type="reset" name="reset" id="reset" value="borrar to">
+        
+    </form>
+
+    <h1>Formulario ej</h1>
+    <form>
+        <fieldset>
+            <legend>Informacion personal</legend>
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Introduzca su nombre...">
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" name="apellidos" id="apellidos" placeholder="Introduzca sus apellidos...">
+                <br><br>
+                <label for="telefono">Telefono:</label>
+                <input type="tel" name="telefono" id="telefono" placeholder="Introduzca su telefono...">
+                <label for="ciudad">Ciudad:</label>
+                <input type="text" name="ciudad" id="ciudad" placeholder="Introduzca su ciudad...">
+            </div>
+        </fieldset>
+            <br>
+        <fieldset>
+            <legend>Edad</legend>
+            <div>
+                <input type="radio" value="20-39" name="edad" id="20-39">
+                <label for="radio">20-39</label>
+                <input type="radio" value="40-59" name="edad" id="40-59">
+                <label for="radio">40-59</label>
+                <input type="radio" value="60-79" name="edad" id="60-79">
+                <label for="radio">60-79</label>
+            </div>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Desplegable</legend>
+            <div>
+                <label for="lenguaje">Lenguaje</label>
+                <select name="lenguaje" id="lenguaje">
+                    <option value="selected">Selecciona un lenguaje</option>
+                    <option value="Javascript">Javascript</option>
+                    <option value="PHP">PHP</option>
+                    <option value="Java">Java</option>
+                </select>
+            </div>
+        </fieldset>
+        <br><br>
+        <input type="submit" name="Enviar" value="Enviar">
+        <input type="reset" name="Borrar" value="Borrar">
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>
