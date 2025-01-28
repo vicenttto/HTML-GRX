@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE restauracion [
+    <!ELEMENT restauracion (restaurante*)>
+    <!ELEMENT restaurante (pizzeria | hamburgueseria | braseria)*>
+    <!ELEMENT pizzeria (#PCDATA)>
+    <!ATTLIST pizzeria pizza (MARG | AMER | PROS | BARB) "MARG">
+    <!ELEMENT hamburgueseria (#PCDATA)>
+    <!ELEMENT braseria (#PCDATA)>
+]>
+
+<restauracion>
+    <restaurante>
+        <pizzeria pizza="MARG">Texas BBQ Crispy</pizzeria>
+        <hamburgueseria>CBO</hamburgueseria>
+    </restaurante>
+</restauracion>

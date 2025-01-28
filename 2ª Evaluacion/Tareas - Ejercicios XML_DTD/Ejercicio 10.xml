@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE profesiones [
+    <!ELEMENT profesiones (profesion*)>
+    <!ELEMENT profesion (informatico | docente | quimico)>
+    <!ELEMENT informatico (#PCDATA)>
+    <!ELEMENT docente (#PCDATA)>
+    <!ATTLIST docente 
+        especialidad CDATA #REQUIRED
+        horas CDATA #IMPLIED
+        evaluacion CDATA #IMPLIED>
+    <!ELEMENT quimico (#PCDATA)>
+    
+
+]>
+
+<profesiones>
+    <profesion>
+        <informatico></informatico>
+    </profesion>
+
+    <profesion>
+        <docente especialidad="programacion" horas="3" evaluacion="1ª"></docente>
+    </profesion>
+
+    <profesion>
+        <quimico></quimico>
+    </profesion>
+</profesiones>

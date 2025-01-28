@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE equipo [
+    <!ELEMENT equipo (jugador*)>
+    <!ELEMENT jugador ((dorsal, puesto) | nombre)>
+    <!ELEMENT dorsal (#PCDATA)>
+    <!ELEMENT puesto (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+]>
+
+<equipo>
+    <jugador>
+        <nombre></nombre>
+    </jugador>
+
+    <jugador>
+        <dorsal></dorsal>
+        <puesto></puesto>
+    </jugador>
+</equipo>

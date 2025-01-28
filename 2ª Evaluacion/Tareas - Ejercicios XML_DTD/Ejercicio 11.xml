@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE restauracion [
+    <!ELEMENT restauracion (restaurante*)>
+    <!ELEMENT restaurante (pizzeria | hamburgueseria | braseria)*>
+    <!ELEMENT pizzeria (#PCDATA)>
+    <!ELEMENT hamburgueseria (#PCDATA)>
+    <!ELEMENT braseria (#PCDATA)>
+    <!ATTLIST braseria carnes CDATA #FIXED "rojas">
+]>
+<restauracion>
+    <restaurante>
+        <pizzeria>Texas BBQ Crispy</pizzeria>
+        <hamburgueseria>CBO</hamburgueseria>
+    </restaurante>
+</restauracion>

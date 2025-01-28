@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca [
+    <!ELEMENT biblioteca (libro+)>
+    <!ELEMENT libro (codigo_libro, titulo, editorial, edicion, isbn, num_paginas, autor)>
+    <!ELEMENT codigo_libro (#PCDATA)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT editorial (#PCDATA)>
+    <!ELEMENT edicion (#PCDATA)>
+    <!ELEMENT isbn EMPTY>
+    <!ELEMENT num_paginas (#PCDATA)>
+    <!ELEMENT autor (fecha_nacimiento, lugar_nacimiento, edad)>
+    <!ELEMENT fecha_nacimiento (#PCDATA)>
+    <!ELEMENT lugar_nacimiento (#PCDATA)>
+    <!ELEMENT edad (#PCDATA)>
+]>
+<biblioteca>
+    <libro>
+        <codigo_libro>123</codigo_libro>
+        <titulo>Hola</titulo>
+        <editorial>A</editorial>
+        <edicion>e</edicion>
+        <isbn/>
+        <num_paginas>123</num_paginas>
+        <autor>
+            <fecha_nacimiento></fecha_nacimiento>
+            <lugar_nacimiento></lugar_nacimiento>
+            <edad></edad>
+        </autor>
+    </libro>
+</biblioteca>

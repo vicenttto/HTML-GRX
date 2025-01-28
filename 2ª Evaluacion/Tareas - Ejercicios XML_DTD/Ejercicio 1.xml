@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca [
+    <!ELEMENT biblioteca (libro+)>
+    <!ELEMENT libro (codigo_libro, titulo, editorial, edicion, isbn, num_paginas, autor)>
+    <!ELEMENT codigo_libro (#PCDATA)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT editorial (#PCDATA)>
+    <!ELEMENT edicion (#PCDATA)>
+    <!ELEMENT isbn (#PCDATA)>
+    <!ELEMENT num_paginas (#PCDATA)>
+    <!ELEMENT autor (#PCDATA)>
+]>
+<biblioteca>
+    <libro>
+        <codigo_libro>001</codigo_libro>
+        <titulo>El Quijote</titulo>
+        <editorial>Editorial A</editorial>
+        <edicion>1ª</edicion>
+        <isbn>1234567890</isbn>
+        <num_paginas>500</num_paginas>
+        <autor>Miguel de Cervantes</autor>
+    </libro>
+    <libro>
+        <codigo_libro>002</codigo_libro>
+        <titulo>Cien Años de Soledad</titulo>
+        <editorial>Editorial B</editorial>
+        <edicion>2ª</edicion>
+        <isbn>0987654321</isbn>
+        <num_paginas>400</num_paginas>
+        <autor>Gabriel García Márquez</autor>
+    </libro>
+    <libro>
+        <codigo_libro>003</codigo_libro>
+        <titulo>La Sombra del Viento</titulo>
+        <editorial>Editorial C</editorial>
+        <edicion>3ª</edicion>
+        <isbn>1122334455</isbn>
+        <num_paginas>600</num_paginas>
+        <autor>Carlos Ruiz Zafón</autor>
+    </libro>
+</biblioteca>

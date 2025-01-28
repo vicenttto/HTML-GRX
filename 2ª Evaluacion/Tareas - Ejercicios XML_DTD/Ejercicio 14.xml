@@ -1,0 +1,13 @@
+<!DOCTYPE asignaturas [
+    <!ELEMENT asignaturas (daw*, asir*, dam*)>
+    <!ELEMENT daw (#PCDATA)>
+    <!ELEMENT asir (#PCDATA)>
+    <!ATTLIST asir codigo ID #REQUIRED>
+    <!ELEMENT dam (#PCDATA)>
+]>
+
+<asignaturas>
+    <daw>Desarrollo de Aplicaciones Web</daw>
+    <asir codigo="ASIR001">Administración de Sistemas Informáticos en Red</asir>
+    <dam>Desarrollo de Aplicaciones Multiplataforma</dam>
+</asignaturas>

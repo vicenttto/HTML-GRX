@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ordenador [
+    <!ELEMENT ordenador (componentes+)>
+    <!ELEMENT componentes (procesador, grafica, ram+)>
+    <!ELEMENT procesador (#PCDATA)>
+    <!ELEMENT grafica (#PCDATA)>
+    <!ELEMENT ram (#PCDATA)>
+]>
+
+<ordenador>
+    <componentes>
+        <procesador>i9 14900H</procesador>
+        <grafica>RTX 4070</grafica>
+        <ram>16 gb</ram>
+        <ram>16 gb</ram>
+    </componentes>
+    <componentes>
+        <procesador>Ryzen 5 3600</procesador>
+        <grafica>AMD Raedon</grafica>
+        <ram>8 gb</ram>
+        <ram>8gb</ram>
+    </componentes>
+</ordenador>
+
+<!-- el operador de cardinalidad + indica que un elemento debe aparecer al menos una vez en el documento XML. Es decir, el elemento puede repetirse múltiples veces, pero no puede estar ausente. -->

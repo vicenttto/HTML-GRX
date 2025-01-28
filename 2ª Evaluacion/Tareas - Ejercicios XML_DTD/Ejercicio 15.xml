@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE asignaturas [
+    <!ELEMENT asignaturas (asignatura*)>
+    <!ELEMENT asignatura (nombre, curso, profesor)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ATTLIST nombre codigo NMTOKEN #REQUIRED>
+    <!ELEMENT curso (#PCDATA)>
+    <!ELEMENT profesor (#PCDATA)>
+]>
+<asignaturas>
+    <asignatura>
+        <nombre codigo="MAT101">Matemáticas</nombre>
+        <curso>1º Bachillerato</curso>
+        <profesor>Juan Pérez</profesor>
+    </asignatura>
+    <asignatura>
+        <nombre codigo="FIS102">Física</nombre>
+        <curso>2º Bachillerato</curso>
+        <profesor>María López</profesor>
+    </asignatura>
+</asignaturas>

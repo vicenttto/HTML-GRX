@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca [
+    <!ELEMENT biblioteca (libro*)>
+    <!ELEMENT libro (nombre, autor, editorial)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ATTLIST nombre tipo_de_imagen (gif | jpg | png) #IMPLIED>
+    <!ELEMENT autor (#PCDATA)>
+    <!ELEMENT editorial (#PCDATA)>
+]>
+
+<biblioteca>
+    <libro>
+        <nombre tipo_de_imagen="jpg"></nombre>
+        <autor></autor>
+        <editorial></editorial>
+    </libro>
+</biblioteca>

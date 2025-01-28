@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE musica [
+    <!ELEMENT musica (disco)>
+    <!ELEMENT disco (titulo, año, canciones*)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT año (#PCDATA)>
+    <!ELEMENT canciones (#PCDATA)>
+]>
+<musica>
+    <disco>
+        <titulo></titulo>
+        <año></año>
+        <canciones></canciones>
+        <canciones></canciones>
+    </disco>
+</musica>

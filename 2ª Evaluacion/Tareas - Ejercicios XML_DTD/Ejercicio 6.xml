@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ASIR [
+    <!ELEMENT ASIR (empleados*)>
+    <!ELEMENT empleados (id | nombre)>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+]>
+
+<ASIR>
+    <empleados>
+        <id></id>
+    </empleados>
+
+    <empleados>
+        <nombre></nombre>
+    </empleados>
+</ASIR>
