@@ -3,7 +3,10 @@
     <!ELEMENT biblioteca (libro*)>
     <!ELEMENT libro (nombre, autor, editorial)>
     <!ELEMENT nombre (#PCDATA)>
-    <!ATTLIST nombre tipo_de_imagen (gif | jpg | png) #IMPLIED>
+    <!ATTLIST nombre tipo_de_imagen NOTATION (gif | jpg | png) #IMPLIED>
+    <!NOTATION gif SYSTEM "image/gif">
+    <!NOTATION jpg SYSTEM "image/jpg">
+    <!NOTATION png SYSTEM "image/png">
     <!ELEMENT autor (#PCDATA)>
     <!ELEMENT editorial (#PCDATA)>
 ]>
