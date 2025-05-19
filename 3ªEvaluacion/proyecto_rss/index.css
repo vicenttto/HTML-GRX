@@ -1,0 +1,55 @@
+
+/*Añadir fuente*/
+@font-face {
+    font-family: "Arcane font";
+    src: url(fuentes/Arcane\ Nine.otf);
+}
+
+
+
+/* Estilos generales */
+body {
+    font-family: "Arcane font", sans-serif;
+    
+     /* Fondo con imagen */
+    background-image: url("imagenes_series/FondoJinx-2x.jpg");
+     background-size: cover; /* Hace que la imagen cubra toda el área */
+    background-repeat: repeat-y;
+    background-position: center;
+    height: 100vh;
+     background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semi-transparente */
+
+}   
+
+.letrascontainer {
+    display: flex; /* Usa Flexbox para centrar elementos */
+            justify-content: center; /* Centra horizontalmente */
+            align-items: center; /* Centra verticalmente */
+            margin-top: 70;
+}
+
+
+.overlay-content {
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.overlay-content a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    margin: 15px 0;
+    transition: color 0.3s ease;
+}
+
+.overlay-content a:hover {
+    color: #f1c40f;
+}
+
+
+
+
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagenes_series/Arcanae Logo PNG.png">
+    <link rel="stylesheet" href="tienda.css">
+    <title>TIENDA</title>
+</head>
+<body>
+    <a href="0_index.html"><img src="imagenes_series/A arcane.png" alt="" class="home"></a>
+    <h1>Tienda</h1>
+
+    <h2>Formulario de compra</h2>
+
+    <form>
+        <fieldset>
+            <legend> INFORMACION PERSONAL </legend>
+                <div class="iniciosesion">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" required>
+                    <br>
+                    <br>
+                    <label for="apellido">Apellidos</label>
+                    <input type="text" required>
+                    <br>
+                    <br>
+                    <label for="email">Correo eléctronico</label>
+                    <input type="email" required>
+                    <br>
+                    <br>
+                    <label for="telefono">Telefono</label>
+                    <input type="phonenumber">
+                    <br>
+                    <br>
+                </div>
+        </fieldset>
+        
+        <fieldset class="datosenviofield">
+            <legend> DATOS ENVIO </legend>
+                <div class="envio">
+                    <label for="direccion">Direccion envio</label>
+                    <input type="text" required>
+                    <br>
+                    <br>
+                    <label for="CP">Codigo postal</label>
+                    <input type="text" required>
+                    <br>
+                    <br>
+                    <label for="ciudad">Ciudad</label>
+                    <input type="text" required>
+                    <br>
+                    <br>
+                    <label for="pais">País</label>
+                    <input type="text" required>
+                </div>
+        </fieldset>
+
+        <fieldset>
+            <legend> PRODUCTO </legend>
+                <div class="producto">
+                    <select name="producto">
+                        <option selected> --- Elige un producto ---
+                        <option value="Figura Jinx Arcane">Figura de Jinx campeona de Arcane a escala 1/7</option>
+                        <option value="Guantes VI Arcane"> Peluche Vi Arcane</option>
+                        <option value="Poster Ekko Arcane">Sudadera Ekko Arcane</option>
+                        <option value="Collar Azul Arcane">Collar de rosa azul de Arcane</option>
+                    </select>
+                </div>
+                <button>Enviar</button>
+        </fieldset>
+    </form>
+    <div>  
+        <img src="imagenes_series/figura jinx arcane png.png" alt="producto1" class="figurajinx">
+        <img src="imagenes_series/vi peluche arcane.png" alt="producto2" class="peluchevi">
+        <img src="imagenes_series/sudadera ekko arcane.png" alt="producto3" class="sudaderaekko">
+        <img src="imagenes_series/collar rosa arcane.png" alt="producto4" class="collarazul">
+    </div>
+</body>
+</html>

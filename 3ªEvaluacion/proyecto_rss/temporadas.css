@@ -1,0 +1,81 @@
+/*Añadir fuente*/
+@font-face {
+    font-family: "Arcane font";
+    src: url(fuentes/Arcane\ Nine.otf);
+}
+
+.home{
+    width: 75px; 
+    margin-left: 20px;
+    top: 10px;
+    position: absolute; 
+}
+
+
+
+/* Estilos generales */
+body {
+    font-family: "Arcane font", sans-serif;
+    
+     /* Fondo con imagen */
+    background-image: url("imagenes_series/Fondo\ jinx\ 2.jpg");
+     background-size: cover; /* Hace que la imagen cubra toda el área */
+    background-repeat: repeat-y;
+    background-position: center;
+    height: 100vh;
+    align-items: center;
+     background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semi-transparente */
+
+}   
+
+.letrascontainer {
+    display: flex; /* Usa Flexbox para centrar elementos */
+            justify-content: center; /* Centra horizontalmente */
+            align-items: center; /* Centra verticalmente */
+            margin-top: 70;
+}
+
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.button {
+    margin-left: 450px;
+    margin-right: 100px;
+    margin-top: 250px;
+    display: flex;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 50px 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.button:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.button img {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: auto;
+}
+
+.button:hover img {
+    display: block;
+}
