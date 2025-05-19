@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Gocente S.L - Arcane Universe</title>
+    <id>http://www.gocente_cracks.com/arcane/feed.atom</id>
+
+    <link href="http://www.gocente_cracks.com/arcane/feed.atom" rel="self" />
+    <link href="http://www.gocente_cracks.com/arcane" rel="alternate" />
+
+    <updated>2025-05-19T12:00:00Z</updated>
+
+    <author>
+        <name>Gocente S.L</name>
+    </author>
+
+    <entry>
+        <title>Explorando las tierras prohibidas de Arcane</title>
+        <id>http://www.gocente_cracks.com/arcane/tierras-prohibidas</id>
+        <link href="http://www.gocente_cracks.com/arcane/tierras-prohibidas" rel="alternate" />
+        <updated>2025-05-18T10:00:00Z</updated>
+        <author>
+            <name>Gocente S.L</name>
+        </author>
+        <summary>Una aventura por los territorios más misteriosos y peligrosos del universo Arcane.</summary>
+    </entry>
+
+    <entry>
+        <title>Personajes clave en la historia de Arcane</title>
+        <id>http://www.gocente_cracks.com/arcane/personajes-clave</id>
+        <link href="http://www.gocente_cracks.com/arcane/personajes-clave" rel="alternate" />
+        <updated>2025-05-17T16:30:00Z</updated>
+        <author>
+            <name>Gocente S.L</name>
+        </author>
+        <summary>Conoce a los protagonistas que han marcado el rumbo de la saga Arcane.</summary>
+    </entry>
+
+    <entry>
+        <title>Nuevos episodios: Lo que nos espera en el futuro de Arcane</title>
+        <id>http://www.gocente_cracks.com/arcane/nuevos-episodios</id>
+        <link href="http://www.gocente_cracks.com/arcane/nuevos-episodios" rel="alternate" />
+        <updated>2025-05-16T14:15:00Z</updated>
+        <author>
+            <name>Gocente S.L</name>
+        </author>
+        <summary>Avances exclusivos sobre las próximas historias y misterios que se revelarán en
+            Arcane.</summary>
+    </entry>
+</feed>

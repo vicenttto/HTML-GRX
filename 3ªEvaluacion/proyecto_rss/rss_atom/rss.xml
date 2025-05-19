@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Gocente S.L - Arcane Universe</title>
+    <link>http://www.gocente_cracks.com/arcane</link>
+    <description>Noticias sobre la serie Arcane y su universo</description>
+
+    <item>
+      <title>Estreno de la nueva temporada de Arcane</title>
+      <link>http://www.gocente_cracks.com/arcane/estreno-temporada-3</link>
+      <guid>http://www.gocente_cracks.com/arcane/estreno-temporada-3</guid>
+      <description>La esperada tercera temporada de Arcane ya está disponible en todas las plataformas oficiales.</description>
+      <category>Estreno</category>
+      <category>Serie</category>
+      <category>Arcane</category>
+    </item>
+
+    <item>
+      <title>Descubre los secretos detrás de Arcane</title>
+      <link>http://www.gocente_cracks.com/arcane/secretos-universo</link>
+      <guid>http://www.gocente_cracks.com/arcane/secretos-universo</guid>
+      <description>Un análisis profundo sobre la mitología y los misterios que rodean el universo de Arcane.</description>
+      <category>Análisis</category>
+      <category>Universo</category>
+      <category>Arcane</category>
+    </item>
+
+    <item>
+      <title>Evento especial: Encuentro con los creadores de Arcane</title>
+      <link>http://www.gocente_cracks.com/arcane/evento-creadores</link>
+      <guid>http://www.gocente_cracks.com/arcane/evento-creadores</guid>
+      <description>Gocente S.L organiza un encuentro online exclusivo con los guionistas y directores de Arcane.</description>
+      <category>Evento</category>
+      <category>Arcane</category>
+      <category>Entrevista</category>
+    </item>
+
+  </channel>
+</rss>
